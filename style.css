@@ -1,0 +1,119 @@
+@font-face /* cleaner font */
+{
+    font-family: SFPro; src: url('fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+body
+{
+    background-color: lightblue;
+    scroll-behavior: smooth;
+}
+
+hr 
+{
+    width: 600px;
+    border: none;
+    height: 2px;
+    background: black;
+}
+
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p
+{
+    font-size: 19px;
+    line-height: 150%;
+    font-family: SFPro;    
+    padding-left: 17.5em;
+    padding-right: 17.5em;
+}
+
+figcaption
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#triads /* table design */
+{
+    font-family: SFPro;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 20%;
+}
+
+#triads td, #triads th
+{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 3px;
+    text-align: center;
+}
+
+#triads tr:nth-child(even)
+{
+    background-color: aqua;
+}
+
+ul > li
+{
+    list-style-type: none;
+    font-family: SFPro;
+    font-size: 19px;
+    padding-left: 20em;
+    padding-right: 20em;
+    line-height: 150%;
+}
+
+aside
+{
+    font-family: SFPro;
+}
+
+.header
+{
+    background-color: rgb(236, 173, 90);
+}
+
+.center
+{
+    text-align: center;
+}
+
+img.chords
+{
+    text-align: center;
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+.column
+{
+    float: left;
+    width: 33.33%;
+    padding: 1px;
+}
+
+.row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
